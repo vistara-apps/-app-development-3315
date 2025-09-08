@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import AppShell from './components/AppShell';
 import Dashboard from './components/Dashboard';
 import RitualCreator from './components/RitualCreator';
 import ProgressView from './components/ProgressView';
-import { usePaymentContext } from './hooks/usePaymentContext';
 
 function App() {
   const [currentView, setCurrentView] = useState('dashboard');
